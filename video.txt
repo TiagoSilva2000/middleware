@@ -1,0 +1,10 @@
+Aplicação simples do conceito de middleware através do Python Pyro4. O intuito
+aqui é apresentar, de forma lúdica, o acesso e manipulação de objetos remotos.
+Os arquivos pethouse_server.py e server.py são os servidores da aplicação, em que
+o primeiro mantém apenas uma instância do objeto para todas as conexões, característica
+não compartilhada pelo server.py, que inicializa um novo Pet, sempre que uma conexão
+é estabelecida. O client é o cliente dos dois servidores e pode se conectar a múltiplos
+server.py para o gerenciamento dos pets.
+
+
+O link do vídeo da apresentação:
