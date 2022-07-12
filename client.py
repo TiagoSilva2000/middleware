@@ -43,8 +43,8 @@ class User(object):
         print(self.pets[pet].getAge())
       elif action == "getHealth":
         print(self.pets[pet].getHealth())
-
-      print("Invalid action")
+      else:
+        print("Invalid action")
     except Exception as e:
       print(e)
 
